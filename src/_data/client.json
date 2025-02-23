@@ -1,0 +1,14 @@
+{
+  "name": "Studio Maud Yagreb",
+  "email": "info@studiomaud.hr",
+  "phone": "+385919999111",
+  "phoneFormatted": "+385 91 9999 111",
+  "address": {
+    "lineOne": "First Address Line",
+    "lineTwo": "Second Address Line, If Needed",
+    "city": "Zagreb",
+    "county": "Hrvatska",
+    "postcode": "10000"
+  },
+  "domain": "www.studiomaud.hr"
+}

@@ -1,0 +1,79 @@
+---
+layout: 'base.html'
+description: "Studio Maud - o nama"
+metaTitle: 'Studio Maud - o nama'
+tagTitle: 'O nama'
+preloadImg: '/images/cabinets2-1920w.webp'
+preloadCSS: '/css/about.css'
+permalink: 'about/'
+eleventyNavigation:
+    key: O nama
+    order: 200
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">O nama</h1>
+  {% image './src/images/cabinets2.jpg', 'cabinets', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/cabinets2.jpg', 'cabinets', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <!-- <span class="cs-topper">About Us</span> -->
+      <h2 class="cs-title">Studio Maud</h2>
+      <p class="cs-text">
+                
+            </p>
+      <p class="cs-text">Studio Maud osnovan je 2017. godine u Zagrebu. Kao primarno od svoje djelatnosti tvrtka Studio Maud d.o.o. ističe projektiranje građevina i interijera na području cijele Hrvatske.
+            </p>
+            <p class="cs-text">
+              Studio Maud renomirani je arhitektonski studio, specijaliziran za projektiranje građevina i interijera te pruža usluge konzaltinga vezanog za arhitekturu i projektiranje.
+            </p>
+            <p class="cs-text">Visokoobrazovani djelatnici, vrhunski projektanti, u dogovoru s klijentima projektirat će stambenu jedinicu prema željama, s posebnim naglaskom na funkcionalnost prostora te estetsku vrijednost.</p>
+            <p class="cs-text">Iako mlada tvrtka, ovaj arhitektonski studio jedan je od najcjenjenijih na području grada Zagreba, prepoznat od strane klijenata kao mjesto gdje ponajbolji hrvatski projektanti stvaraju čuda.</p>
+      <!-- <div class="cs-flex-group">
+        <p class="cs-flex-p">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                </p>
+        <span class="cs-name">Justin Time</span>
+        <span class="cs-job">CEO-Founder</span>
+        <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+      </div>
+      <a href="" class="button-solid">More About Us</a> -->
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+     Kontaktirajte nas <br/>
+      već danas
+    </h2>
+    <p>
+      Ukoliko želite surađivati sa stručnim timom dizajnera koji će pretvoriti Vaše vizije u stvarnost, kontaktirajte nas već danas.
+    </p>
+    <a href="/contact" class="button-solid">Kontakt</a>
+  </div>
+  {% image './src/images/cabinets2.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
