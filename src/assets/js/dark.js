@@ -33,7 +33,7 @@ function detectColourScheme() {
 }
 
 // run on page load
-detectColourScheme();
+// detectColourScheme();
 
 // add event listener to the dark mode button toggle
 document.getElementById('dark-mode-toggle').addEventListener('click', () => {
